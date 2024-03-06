@@ -1,0 +1,846 @@
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.carshare-hero-image-white-icon,
+.faqhero-1-icon {
+  width: 1489px;
+  position: relative;
+  height: 837.9px;
+  object-fit: cover;
+  z-index: 0;
+}
+.faqhero-1-icon {
+  width: 1512px;
+  height: 850px;
+  display: none;
+  z-index: 1;
+}
+.carsharehero-child,
+.carsharehero-item {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 385.95px);
+  right: 0;
+  height: 772px;
+  display: none;
+}
+.carsharehero-child {
+  width: 1489px;
+  background-color: var(--color-gray-300);
+  z-index: 2;
+}
+.carsharehero-item {
+  width: 1038px;
+  background: linear-gradient(268.43deg, #fff, rgba(255, 255, 255, 0));
+  z-index: 3;
+}
+.primary-horizontal-logo-green-4 {
+  text-decoration: none;
+  width: 167px;
+  position: relative;
+  height: 34px;
+  background-image: url(./public/primaryhorizontallogogreencarshare623@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+}
+.hamburger-menu753523-icon {
+  height: 16.4px;
+  width: 25.4px;
+  position: relative;
+}
+.hamburger-menu753523-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: transparent;
+  width: 45.4px;
+  height: 36.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.carshare-main-logo-nav {
+  width: calc(100% - 177px);
+  margin: 0 !important;
+  position: absolute;
+  top: 46px;
+  right: 83px;
+  left: 94px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 4;
+}
+.primary-horizontal-logo-green-5 {
+  text-decoration: none;
+  width: 150px;
+  position: relative;
+  height: 30.5px;
+  background-image: url(./public/primaryhorizontallogogold-1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.partner-with-us-nav {
+  width: calc(100% - 177px);
+  margin: 0 !important;
+  position: absolute;
+  top: 46px;
+  right: 83px;
+  left: 94px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 5;
+}
+.heading35,
+.paragraph59 {
+  position: relative;
+  display: inline-block;
+  min-width: 300px;
+}
+.heading35 {
+  align-self: stretch;
+  height: 70px;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+.paragraph59 {
+  width: 100%;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-family: var(--font-athiti);
+  max-width: 800px;
+}
+.frame-wrapper30,
+.heading-parent28 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.heading-parent28 {
+  width: 100%;
+  min-width: 350px;
+  max-width: 900px;
+}
+.frame-wrapper30 {
+  align-self: stretch;
+}
+.carsharehero-inner {
+  width: calc(100% - 368px);
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 53.45px);
+  right: 184px;
+  left: 184px;
+  flex-direction: column;
+  z-index: 6;
+}
+.carshare-main-nav,
+.carsharehero,
+.carsharehero-inner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.carsharehero {
+  align-self: stretch;
+  background-color: var(--neutral-colors-white);
+  overflow: hidden;
+  flex-direction: column;
+  position: relative;
+  gap: 10px 0;
+  z-index: 0;
+  text-align: center;
+  font-size: var(--font-size-16xl);
+}
+.carshare-main-nav {
+  width: 45px;
+  margin: 0 !important;
+  position: absolute;
+  top: 38px;
+  left: 43px;
+  height: 44px;
+  flex-direction: row;
+  z-index: 1;
+}
+.primary-horizontal-logo-gold-7 {
+  text-decoration: none;
+  width: 171.9px;
+  position: relative;
+  height: 35px;
+  background-image: url(./public/primaryhorizontallogogold3@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+}
+.carshare-main-logo {
+  width: 172px;
+  margin: 0 !important;
+  position: absolute;
+  top: 42px;
+  left: calc(50% - 86.5px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.feature-title16 {
+  width: 100%;
+  height: 31px;
+  position: relative;
+  line-height: 30px;
+  text-transform: uppercase;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 450px;
+  max-width: 700px;
+}
+.seize-the-reins {
+  margin: 0;
+}
+.text12 {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  font-family: var(--font-athiti);
+  color: inherit;
+}
+.feature-title-parent9 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-mini) 0;
+  box-sizing: border-box;
+  gap: 29px 0;
+  min-width: 300px;
+}
+.bently-flying-spur-gray-icon {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-base);
+  max-width: 100%;
+  overflow: hidden;
+  height: 450px;
+  object-fit: cover;
+  min-width: 400px;
+}
+.carshare-h1,
+.frame-parent34 {
+  display: flex;
+  align-items: center;
+}
+.frame-parent34 {
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 22px 117px;
+  max-width: 1121px;
+}
+.carshare-h1 {
+  align-self: stretch;
+  background: linear-gradient(85.53deg, #fff, #bcaa72);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-165xl);
+  z-index: 3;
+}
+.why-list-with {
+  margin: 0;
+  font-weight: 600;
+  color: var(--color-darkslategray-100);
+}
+.built-in-infrastructure-to-container {
+  align-self: stretch;
+  height: 72px;
+  position: relative;
+  line-height: 36px;
+  display: inline-block;
+  min-width: 300px;
+}
+.built-in-infrastructure-to-get-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  text-align: center;
+}
+.membership-benefits1 {
+  margin: 0;
+  font-size: var(--font-size-29xl);
+  line-height: 60px;
+  font-family: var(--font-chiffon);
+}
+.blank-line170 {
+  margin: 0;
+  line-height: 20px;
+}
+.headings10 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 450px;
+}
+.headings-wrapper7 {
+  width: 1121px;
+  height: 164px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-3xs) var(--padding-31xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  color: var(--neutral-colors-white);
+  font-family: var(--font-covik-sans);
+}
+.headings11 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  line-height: 60px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 500px;
+}
+.headings-wrapper8 {
+  width: 1120px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent35,
+.frame-wrapper31 {
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.frame-wrapper31 {
+  width: 1120px;
+  height: 186px;
+  display: none;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-154xl) var(--padding-3xs) 0;
+  min-width: 1100px;
+  font-size: var(--font-size-29xl);
+  font-family: var(--font-chiffon);
+}
+.frame-parent35 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  gap: 23px 0;
+  max-width: 1121px;
+}
+.carshare-h2,
+.frame-wrapper32 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.carshare-h2 {
+  align-self: stretch;
+  background-color: var(--neutral-colors-white);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 0 var(--padding-165xl);
+  z-index: 4;
+  font-family: var(--font-athiti);
+}
+.frame-wrapper32 {
+  width: 1120px;
+  height: 186px;
+  display: none;
+  align-items: flex-start;
+  padding: var(--padding-3xs) var(--padding-154xl) var(--padding-3xs) 0;
+  box-sizing: border-box;
+  min-width: 1100px;
+}
+.customer-support-iconsvg {
+  width: 76px;
+  position: relative;
+  height: 74px;
+  object-fit: cover;
+}
+.customer-support1 {
+  line-height: 30px;
+}
+.customer-support {
+  margin: 0;
+  font-size: var(--font-size-mid);
+}
+.gain-access-to {
+  line-height: 20px;
+}
+.gain-access-to-a-team-of-custo {
+  margin: 0;
+  font-size: var(--font-size-sm);
+}
+.blank-line174 {
+  margin: 0;
+  color: var(--color-gray-100);
+}
+.paragraph60 {
+  width: 255px;
+  position: relative;
+  display: inline-block;
+  height: 174px;
+  flex-shrink: 0;
+}
+.customer-support-iconsvg-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 272px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-wrapper33 {
+  width: 255px;
+  position: relative;
+  height: 272px;
+}
+.platform-iconsvg {
+  width: 47px;
+  position: relative;
+  height: 74px;
+  object-fit: cover;
+}
+.platform-iconsvg-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 271.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-wrapper34,
+.rent-iconsvg {
+  width: 255px;
+  position: relative;
+  height: 271.5px;
+}
+.rent-iconsvg {
+  width: 84px;
+  height: 74px;
+  object-fit: cover;
+}
+.group-parent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px 34px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-athiti);
+}
+.carshare-h3,
+.frame-parent36 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-parent36 {
+  width: 100%;
+  max-width: 1121px;
+}
+.carshare-h3 {
+  align-self: stretch;
+  background-color: var(--neutral-colors-white);
+  overflow: hidden;
+  padding: var(--padding-xl) var(--padding-165xl);
+  z-index: 5;
+  font-size: var(--font-size-29xl);
+  font-family: var(--font-chiffon);
+}
+.big-number21 {
+  width: 1155px;
+  position: relative;
+  line-height: 80px;
+  display: inline-block;
+  height: 75px;
+  flex-shrink: 0;
+  -webkit-text-stroke: 1px #000;
+}
+.big-number-wrapper5 {
+  width: 1120px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.i,
+.please-note-as-container {
+  font-family: var(--font-athiti);
+}
+.please-note-as-container {
+  width: 100%;
+  height: 620px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 20px;
+  display: inline-block;
+  max-width: 1121px;
+}
+.carshare-h4,
+.frame-parent37 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-parent37 {
+  width: 100%;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  min-width: 300px;
+  max-width: 1141px;
+}
+.carshare-h4 {
+  align-self: stretch;
+  background-color: var(--neutral-colors-white);
+  overflow: hidden;
+  padding: 41px 174px;
+  z-index: 6;
+  font-size: var(--font-size-31xl);
+  font-family: var(--font-chiffon);
+}
+.heading36 {
+  width: 824.5px;
+  position: relative;
+  line-height: 50px;
+  font-weight: 900;
+  display: inline-block;
+}
+.you-are-invited6 {
+  color: var(--color-gray-100);
+}
+.span9 {
+  color: var(--color-lightslategray);
+}
+.infogoldsaintecom13 {
+  text-decoration: underline;
+}
+.infogoldsaintecom12 {
+  color: inherit;
+}
+.paragraph63 {
+  position: relative;
+  font-size: var(--body-default-size);
+  line-height: 30px;
+  font-family: var(--body-default);
+}
+.heading-parent29 {
+  width: 1120px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 23px 0;
+  font-family: var(--font-covik-sans);
+}
+.heading37,
+.paragraph64 {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  min-width: 300px;
+}
+.heading37 {
+  height: 20px;
+  line-height: 20px;
+}
+.paragraph64 {
+  font-size: var(--font-size-sm);
+  line-height: 14px;
+}
+.heading-parent30 {
+  width: 1121px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 23px 0;
+  font-size: var(--font-size-xl);
+}
+.divider-icon8 {
+  width: 1920px;
+  position: relative;
+  height: 1px;
+  opacity: 0.35;
+}
+.divider-wrapper6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.social-media-icon-squareinsta8,
+.social-media-icon-squarelinke9 {
+  width: 36px;
+  position: relative;
+  height: 36px;
+  cursor: pointer;
+}
+.social-media-icon-squareinsta8 {
+  object-fit: cover;
+}
+.social-media-container33 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 44px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 16px;
+}
+.social-media-container3-wrapper1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 44px);
+  width: 88px;
+  height: 36px;
+}
+.contact-info611 {
+  width: 88px;
+  position: relative;
+  height: 36px;
+}
+.goldsainte-gold-logo-carshare-icon {
+  width: 46px;
+  position: relative;
+  height: 46px;
+  object-fit: cover;
+}
+.email8 {
+  width: 533.9px;
+  position: relative;
+  line-height: 14px;
+  display: inline-block;
+}
+.contact-info611-parent,
+.frame-parent38 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-info611-parent {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0;
+  gap: 20px 0;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+}
+.frame-parent38 {
+  gap: 10px 0;
+}
+.carshare-footer-inner,
+.frame-parent38 {
+  align-self: stretch;
+  height: 189px;
+  justify-content: flex-start;
+}
+.carshare,
+.carshare-footer,
+.carshare-footer-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.carshare-footer {
+  align-self: stretch;
+  height: 236px;
+  background-color: var(--neutral-colors-white);
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: center;
+  padding: 0 var(--padding-165xl);
+  box-sizing: border-box;
+  z-index: 7;
+  text-align: center;
+  font-size: var(--font-size-25xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-athiti);
+}
+.carshare {
+  width: 100%;
+  position: relative;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-arsenal);
+}
+@media screen and (max-width: 1200px) {
+  .hamburger-menu753523-icon {
+    display: flex;
+  }
+  .heading35 {
+    line-height: 30px;
+  }
+  .feature-title16,
+  .heading35 {
+    font-size: var(--font-size-11xl);
+  }
+  .please-note-as-container {
+    font-size: 10px;
+    line-height: 16px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .heading35 {
+    font-size: var(--font-size-xl);
+    line-height: 20px;
+  }
+  .paragraph59 {
+    font-size: var(--font-size-sm);
+    line-height: 16px;
+  }
+  .feature-title16 {
+    font-size: var(--font-size-xl);
+    line-height: 20px;
+  }
+  .carshare-h1 {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .built-in-infrastructure-to-container {
+    font-size: var(--font-size-5xl);
+    line-height: 30px;
+  }
+  .carshare-footer,
+  .carshare-h2,
+  .carshare-h3,
+  .carshare-h4 {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .heading35 {
+    font-size: var(--font-size-xl);
+    line-height: 20px;
+  }
+  .paragraph59 {
+    font-size: var(--font-size-sm);
+    line-height: 16px;
+  }
+  .frame-wrapper30 {
+    padding-left: var(--padding-3xs);
+    padding-right: var(--padding-3xs);
+    box-sizing: border-box;
+  }
+  .feature-title16 {
+    font-size: var(--font-size-xl);
+    line-height: 20px;
+  }
+  .carshare-h1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .built-in-infrastructure-to-container {
+    font-size: var(--font-size-5xl);
+  }
+  .carshare-h2,
+  .carshare-h3 {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+.logomark-seal-green-1-icon {
+  width: 79px;
+  position: relative;
+  height: 79px;
+  object-fit: cover;
+}
+.about {
+  text-decoration: none;
+  position: relative;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: inherit;
+}
+.sections-child1 {
+  width: 469px;
+  position: relative;
+  border-top: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  height: 1px;
+}
+.menuhome,
+.sections1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px 0;
+}
+.menuhome {
+  position: relative;
+  background-color: var(--neutral-colors-white);
+  overflow: hidden;
+  padding: var(--padding-mini) 0;
+  box-sizing: border-box;
+  gap: 39px 0;
+  opacity: 0;
+  height: 100%;
+  max-width: 90%;
+  text-align: center;
+  font-size: var(--body-default-size);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-athiti);
+}
+.menuhome.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-left;
+}
+@media screen and (max-width: 960px) {
+  .sections1 {
+    display: flex;
+  }
+}
